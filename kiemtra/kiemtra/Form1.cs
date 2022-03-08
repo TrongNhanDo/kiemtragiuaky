@@ -16,5 +16,17 @@ namespace kiemtra
         {
             InitializeComponent();
         }
+
+        private void btblogin_Click(object sender, EventArgs e)
+        {
+            if(textboxusername.Text.Equals("admin") && textboxmatkhau.Text.Equals("admin")){
+                Home home = new Home();
+                this.Hide();
+                home.Show();
+            }
+            else {
+                MessageBox.Show("Đăng nhập thất bại", "Thông báo");
+            }
+        }
     }
 }
