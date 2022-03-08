@@ -32,7 +32,7 @@ namespace kiemtra
             this.label2 = new System.Windows.Forms.Label();
             this.textboxusername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btblogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -75,15 +75,15 @@ namespace kiemtra
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu";
             // 
-            // txtmatkhau
+            // textboxmatkhau
             // 
-            this.txtmatkhau.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmatkhau.Location = new System.Drawing.Point(407, 271);
-            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.PasswordChar = '*';
-            this.txtmatkhau.Size = new System.Drawing.Size(555, 53);
-            this.txtmatkhau.TabIndex = 3;
+            this.textboxmatkhau.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textboxmatkhau.Location = new System.Drawing.Point(407, 271);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.PasswordChar = '*';
+            this.textboxmatkhau.Size = new System.Drawing.Size(555, 53);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // btblogin
             // 
@@ -102,7 +102,7 @@ namespace kiemtra
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1117, 577);
             this.Controls.Add(this.btblogin);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label2);
@@ -121,7 +121,7 @@ namespace kiemtra
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btblogin;
     }
 }
